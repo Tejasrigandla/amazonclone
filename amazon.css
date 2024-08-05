@@ -1,0 +1,778 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav1{
+    height: 60px;
+    border: 2px solid black;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.nav1-text {
+    font-size: 14px;
+    font-weight: 530;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    margin-top: 17px;
+    /*padding-left: 5px;*/
+    justify-content: center;
+
+}
+
+.logo{
+    height: 53px;
+    width: 128px;
+    border: 1px solid black;
+    background-image: url('Screenshot 2024-08-04 192900.png');
+    background-size: cover;
+    padding: 0px;
+    margin: -1px;
+}
+
+
+
+.mybord{
+    border: 2px solid rgb(21, 20, 20);
+    height: 50px;
+    margin-left: 12px;
+
+}
+
+.adress{
+width: 210px;
+}
+.india-img{
+    width: 30px;
+    height: 30px;
+    background-image: url('india lfag.png');
+    background-size: cover;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.adress-text1{
+    font-size: 12px;
+    color:#cccccc;
+}
+.adress-text2{
+    font-size: 14px;
+    color:#cccccc;
+    padding: 0px 0px 1px;
+}
+.adress-img{
+    width: 30px;
+    height: 30px;
+    background-image: url('location1.png');
+    background-size: cover;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.box01{
+    height: 30px;
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.search{
+width: 700px;
+height: 50px;
+border-radius: 5px;
+display: flex;
+justify-content: space-between;
+border: none;
+}
+.search-all{
+text-align: center;
+border: none;
+width: 50px;
+background-color: #ffffff;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+
+.search-img{
+    width: 66px;
+    height: 50px;
+    background-image: url('search image.png');
+    background-size: cover;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.my-input{
+    flex-grow: 1;
+    border:none;
+}
+.india{
+    width: 125px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: stretch;
+}
+.india-text{
+    font-size: 23px;
+    color: #DDDDDD;
+    font-weight: 300;
+}
+
+.hello{
+    
+    width: 103px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items: baseline;
+    justify-content: center;
+    align-content: center;
+}
+.hello1{
+    font-size: 14px;
+    color:#DDDDDD;
+}
+.hello-Location{
+    text-align: center;
+    border: none;
+    color: white;
+    width: 90px;
+    background-color: black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    }
+.hello-locationtext{
+    color: white;
+    font-size: 13px;
+}
+.return{
+    width: 108px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: flex-end;
+    justify-content: center;
+}
+.return1{
+    font-size: 16px;
+    font-family: none;
+    color:#DDDDDD;
+}
+.return2{
+    font-size: 18px;
+    font-weight: 400;
+    color:white;
+}
+.cart{
+    width: 110px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.cart-img{
+    width: 30px;
+    height: 30px;
+    background-image: url('cart.png');
+    background-size: cover;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.nav2{
+    height: 45px;
+    border: 1px solid black;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.all {
+    display: flex;
+}
+
+.logo2{
+    height: 40px;
+    width: 49px;
+    border: 1px solid black;
+    background-image: url('images/3\ bar.jpg');
+    background-size: cover;
+}
+
+.nav2-text {
+    font-size: 14px;
+    font-weight: 530;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    margin-top: 17px;
+    padding-left: 5px;
+
+}
+
+.nav3{
+    height: 400px;
+    width: 1509px;
+    border: 1px solid black;
+    background-image: url('background image amazon.jpg') ;
+    background-size: cover;
+   margin-left: 11px;
+}
+
+/*
+.box1{
+    height: 300px;
+    width: 300px;
+    border: 2px solid red;
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+
+.box2{
+    height: 100px;
+    width: 100px;
+    border: 1px solid orangered;
+    background-image: url('images/ac.jpg');
+    background-size: cover;
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    border: 1px solid orangered;
+    background-image: url('images/wash.jpg');
+    background-size: cover;
+}.box4{
+    height: 100px;
+    width: 100px;
+    border: 1px solid orangered;
+    background-image: url('images/fridge.jpg');
+    background-size: cover;
+}.box5{
+    height: 100px;
+    width: 100px;
+    border: 1px solid orangered;
+    background-image: url('images/microwave.jpg');
+    background-size: cover;
+}
+.outerbox{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.nav2-text {
+    font-size: 14px;
+    font-weight: 500;16
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    padding-top: 100px;
+padding-left: 5px;}
+
+*/
+
+.box{
+    height: 440px;
+    width: 360px;
+    border: 2px solid rgb(243, 237, 237);
+    background-color: #FFFFFF;
+    padding: 20px 0px 12px;
+}
+.singlebox1{
+    height: 440px;
+    width: 320px;
+}
+.single-img{
+    height: 350px;
+    width: 350px;   
+}
+.imgs{
+    height: 350px;
+    width: 350px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box1{
+    height: 150px;
+    width:  150px;
+
+}
+.box1img{
+    height: 150px;
+    width:145px ;
+    border: 1px solid white;
+    background-image: url('fridge.jpg');
+    background-size: cover;
+}
+
+.box2img{
+    height: 153px;
+    width:150px ;
+    border: 1px solid white;
+    background-image: url('ac.jpg');
+    background-size: cover;
+}
+
+.box3img{
+    height: 150px;
+    width:150px ;
+    border: 1px solid white;
+    background-image: url('washing machine.jpg');
+    background-size: cover;
+}
+
+.box4img{
+    height: 163px;
+    width:150px ;
+    border: 1px solid white;
+    background-image: url('microwave.jpg');
+    background-size: cover;
+}
+
+.nav4-text {
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-top: 17px;
+    padding-left: 5px;
+    padding-left: 22px;
+    padding-right: 5px;
+
+}
+
+
+.nav5-text {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    /*margin-top: 17px;
+    padding-left: 5px;
+    padding-left: 22px;
+    padding-right: 5px;*/
+
+}
+.nav6-text {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #007185;
+    /*margin-top: 17px;
+    padding-left: 5px;
+    padding-left: 22px;
+    padding-right: 5px;*/
+
+}
+
+.box5img{
+    height: 163px;
+    width:150px ;
+    border: 1px solid white;
+    background-image: url('cushion covers.jpg');
+    background-size: cover;
+    margin-bottom: -2px;
+}
+
+.box6img{
+    height: 153px;
+    width:150px ;
+    border: 1px solid white;
+    background-image: url('vases.jpg');
+    background-size: cover;
+}
+
+.box7img{
+    height: 150px;
+    width:150px ;
+    border: 1px solid white;
+    background-image: url('light.jpg');
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.box8img{
+    height: 163px;
+    width:150px ;
+    border: 1px solid white;
+    background-image: url('home decors.jpg');
+    background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.box9img{
+    height: 163px;
+    width:150px ;
+    border: 1px solid white;
+    background-image: url('home storage.jpg');
+    background-size: cover;
+    margin-bottom: -2px;
+}
+
+.box10img{
+    height: 163px;
+    width:150px ;
+    border: 1px solid white;
+    background-image: url('storage and racks.jpg');
+    background-size: cover;
+    margin-bottom: -2px;
+}
+
+.box11img{
+    height: 163px;
+    width:150px ;
+    border: 1px solid white;
+    background-image: url('toys and games.jpg');
+    background-size: cover;
+}
+
+.box12img{
+    height: 163px;
+    width:150px ;
+    border: 1px solid white;
+    background-image: url('jackeets.jfif');
+    background-size: cover;
+}
+
+.box13img{
+    height: 163px;
+    width:150px ;
+    border: 1px solid white;
+    background-image: url('cleaning and accesories.jpg');
+    background-size: cover;
+    margin-bottom: -2px;
+}
+
+.box14img{
+    height: 163px;
+    width:150px ;
+    border: 1px solid white;
+    background-image: url('tyre and rimcare.jpg');
+    background-size: cover;
+    margin-bottom: -2px;
+}
+
+.box15img{
+    height: 163px;
+    width:150px ;
+    border: 1px solid white;
+    background-image: url('helmets.jpg');
+    background-size: cover;
+}
+
+.box16img{
+    height: 163px;
+    width:150px ;
+    border: 1px solid white;
+    background-image: url('vaccum cleaner.jpg');
+    background-size: cover;
+}
+.box17img{
+    height: 163px;
+    width:150px ;
+    border: 1px solid white;
+    background-image: url('dumbells.jpg');
+    background-size: cover;
+}
+
+.box18img{
+    height: 163px;
+    width:150px ;
+    border: 1px solid white;
+    background-image: url('fitnessband.jpg');
+    background-size: cover;
+}
+
+.box19img{
+    height: 163px;
+    width:150px ;
+    border: 1px solid white;
+    background-image: url('boltfit.jpg');
+    background-size: cover;
+}
+
+.box20img{
+    height: 163px;
+    width:150px ;
+    border: 1px solid white;
+    background-image: url('watch.jpg');
+    background-size: cover;
+}
+.box21img{
+    height: 163px;
+    width:150px ;
+    border: 1px solid white;
+    background-image: url('sports shoes.jpg');
+    background-size: cover;
+    margin-bottom: -2px;
+
+}
+
+.box22img{
+    height: 163px;
+    width:150px ;
+    border: 1px solid white;
+    background-image: url('watches and smartwatches.jpg');
+    background-size: cover;
+    margin-bottom: -2px;
+}
+
+.box23img{
+    height: 163px;
+    width:150px ;
+    border: 1px solid white;
+    background-image: url('jwellwery and accessories.jpg');
+    background-size: cover;
+}
+
+.box24img{
+    height: 163px;
+    width:150px ;
+    border: 1px solid white;
+    background-image: url('jwellwery and accessories.jpg');
+    background-size: cover;
+}
+.box25img{
+    height: 163px;
+    width:150px ;
+    border: 1px solid white;
+    background-image: url('dress1.jpg');
+    background-size: cover;
+    margin-bottom: -2px;
+}
+
+.box26img{
+    height: 163px;
+    width:150px ;
+    border: 1px solid white;
+    background-image: url('dress2.jpg');
+    background-size: cover;
+    margin-bottom: -2px;
+}
+
+.box27img{
+    height: 163px;
+    width:150px ;
+    border: 1px solid white;
+    background-image: url('dress3.jpg');
+    background-size: cover;
+}
+
+.box28img{
+    height: 163px;
+    width:150px ;
+    border: 1px solid white;
+    background-image: url('dress4.jpg');
+    background-size: cover;
+}
+.box29img{
+    height: 163px;
+    width:150px ;
+    border: 1px solid white;
+    background-image: url('cetaphil.jpg');
+    background-size: cover;
+    margin-bottom: -2px;
+}
+
+.box30img{
+    height: 163px;
+    width:150px ;
+    border: 1px solid white;
+    background-image: url('cream.jpg');
+    background-size: cover;
+    margin-bottom: -2px;
+}
+
+.box31img{
+    height: 163px;
+    width:150px ;
+    border: 1px solid white;
+    background-image: url('simple.jpg');
+    background-size: cover;
+}
+
+.box32img{
+    height: 163px;
+    width:150px ;
+    border: 1px solid white;
+    background-image: url('61wHkCENFtL._AC_SY170_.jpg');
+    background-size: cover;
+}
+.box33img{
+    height: 300px;
+    width:300px ;
+    border: 1px solid white;
+    background-image: url('61wHkCENFtL._AC_SY170_.jpg');
+  margin-top: 10px;
+  margin-left: 20px;
+    background-size: cover;
+}
+.allimages{
+    height: 350px;
+    border: 1px solid rgb(24, 24, 24);   
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+  
+
+}
+.scroll{
+    height: 290;
+    border: pink;
+    
+}
+.small1{
+    height:300px;
+    width:195px;
+    border:1px solid rgb(227, 227, 227);
+    background-image: url('bottels.jpg');
+    background-size: cover;
+}
+.small2{
+    height:300px;
+    width:195px;
+    border:1px solid rgb(195, 193, 193);
+    background-image: url('boxes.jpg');
+    background-size: cover;
+}
+
+.small3{
+    height:300px;
+    width:195px;
+    border:1px solid rgb(231, 227, 227);
+    background-image: url('mixer.jpg');
+    background-size: cover;
+}
+
+.small4{
+    height:300px;
+    width:195px;
+    border:1px solid rgb(230, 226, 226);
+    background-image: url('tray.jpg');
+    background-size: cover;
+}
+.small5{
+    height:300px;
+    width:195px;
+    border:1px solid rgb(231, 229, 229);
+    background-image: url('cutter.jpg');
+    background-size: cover;
+    align-self: center;
+}
+.small6{
+    height:300px;
+    width:195px;
+    border:1px solid rgb(231,229,229);
+    background-image: url('microwave.jpg');
+    background-size: cover;
+    align-content: center;
+}
+
+.nav7{
+    height: 31px;
+    border: 2px solid #efe9e9;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.nav8{
+    height: 320px;
+    border: 2px solid #efe9e9;
+    background-color: #232F3E;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.mybord1{
+    border: 2px solid black;
+    height: 50px;   
+    width: 150px;
+    font-size: 20px;
+    color: Arial, Helvetica, sans-serif;
+}
+.nav8-text{
+    font-size: 14px;
+    font-weight: 530;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    margin-top: 17px;
+    padding-left: 5px;
+
+}
+.footerB{
+    height: 400px;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sweety1{
+    height: 250px;
+    width: 150px;
+    border: 1px solid #232F3E;
+    margin-top: 41px;
+}
+.sweety2{
+    height: 250px;
+    width: 150px;
+    border: 1px solid #232F3E;
+    margin-top: 41px;
+}
+.sweety3{
+    height: 250px;
+    width: 200px;
+    border: 1px solid #232F3E;
+    margin-top: 41px;
+}
+.sweety4{
+    height: 250px;
+    width: 200px;
+    border: 1px solid #232F3E;
+    margin-top: 41px;
+}
+.nav7-text {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+    .nav8-text {
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #DDDDDD;
+    }
+.f1{
+    margin-top: 10px;
+}
+.bap{
+    background-color: rgb(199, 196, 196);
+}
+
+
+
+
+
+
+
+
